@@ -1,0 +1,17 @@
+# Environment
+pytorch_env/
+__pycache__/
+*.pyc
+.DS_Store
+
+# Dataset (558 MB) -- re-download via the kaggle command in the README
+data/
+
+# Regenerable artifacts
+checkpoints/fingerprints.npz
+checkpoints/best.pt
+checkpoints/history.json
+
+# Kept in the repo so `python app.py` works on a fresh clone:
+#   checkpoints/best_grouped.pt      (16 MB)
+#   checkpoints/history_grouped.json

@@ -4,6 +4,9 @@ __pycache__/
 *.pyc
 .DS_Store
 
+# Gradio runtime artifacts (created by --share)
+.gradio/
+
 # Dataset (558 MB) -- re-download via the kaggle command in the README
 data/
 

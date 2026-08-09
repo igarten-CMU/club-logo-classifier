@@ -15,7 +15,7 @@ predictions. Uncertainty shows up on extreme crops, not on whole crests.*
 The trained model is included in this repo, so you don't need the dataset or a GPU:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/club-logo-classifier.git
+git clone https://github.com/igarten-CMU/club-logo-classifier.git
 cd club-logo-classifier
 python3 -m venv pytorch_env && source pytorch_env/bin/activate
 pip install -r requirements.txt

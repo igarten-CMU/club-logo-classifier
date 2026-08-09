@@ -5,10 +5,6 @@ transfer learning in PyTorch, with a Gradio drag-and-drop demo.
 
 **99.97% top-1 accuracy, 100% top-3** on a 3,000-image held-out test set.
 
-![Sample predictions](assets_grouped/sample_predictions.png)
-
-*The model's single error (left, red) plus its five least-confident correct
-predictions. Uncertainty shows up on extreme crops, not on whole crests.*
 
 ## Try it
 
